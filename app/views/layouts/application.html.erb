@@ -7,6 +7,7 @@
                                'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application',
                                'data-turbolinks-track': 'reload' %>
+<<<<<<< HEAD
     <!--[if lt IE 9]>
       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
       </script>
@@ -24,6 +25,13 @@
         </nav>
       </div>
     </header>
+=======
+    <%= render 'layouts/shim' %>
+  </head>
+  <body>
+    <%= render 'layouts/header' %>
+    <!-- renderと呼ばれるRailsヘルパー呼び出しを使っています。-->
+>>>>>>> page-layout
     <div class="container">
       <%= yield %>
     </div>
